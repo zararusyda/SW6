@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="https://www.w3.org/TR/rdf-schema/"
+     xmlns:pnykt="http://www.penyakit/namespace/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.penyakit/namespace/gejala -->
+
+    <AnnotationProperty rdf:about="http://www.penyakit/namespace/gejala"/>
+    
+
+
+    <!-- http://www.penyakit/namespace/nama -->
+
+    <AnnotationProperty rdf:about="http://www.penyakit/namespace/nama"/>
+    
+
+
+    <!-- http://www.penyakit/namespace/penanggulangan -->
+
+    <AnnotationProperty rdf:about="http://www.penyakit/namespace/penanggulangan"/>
+
+
+
+      <!-- http://www.penyakit/namespace/desc -->
+
+    <AnnotationProperty rdf:about="http://www.penyakit/namespace/desc"/>
+    
+
+      <!-- http://www.penyakit/namespace/gambar -->
+
+    <AnnotationProperty rdf:about="http://www.penyakit/namespace/gambar"/>
+
+
+    
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.penyakit/namespace/penyakit -->
+
+    <Class rdf:about="http://www.penyakit/namespace/penyakit"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://www.alodokter.com/asma -->
+
+    <NamedIndividual rdf:about="https://www.alodokter.com/asma">
+        <rdf:type rdf:resource="http://www.penyakit/namespace/penyakit"/>
+        <pnykt:gejala>sesak, sulit bernafas, batuk, mengi</pnykt:gejala>
+        <pnykt:nama>Asma</pnykt:nama>
+        <pnykt:penanggulangan> minum obat, meredakan gejala, mencegah kambuh</pnykt:penanggulangan>
+        <pnykt:desc>Asma adalah jenis penyakit jangka panjang atau kronis pada saluran pernapasan yang ditandai dengan peradangan dan penyempitan saluran napas yang menimbulkan sesak atau sulit bernapas. Selain sulit bernapas, penderita asma juga bisa mengalami gejala lain seperti nyeri dada, batuk-batuk, dan mengi. 
+					      Asma bisa diderita oleh semua golongan usia, baik muda atau tua. </pnykt:desc>
+        <pnykt:gambar>https://asset.kompas.com/crops/pTj-BKRh89AoGPu1qhWKGkMtgSg=/0x0:1000x667/750x500/data/photo/2017/11/29/1038096205.jpg</pnykt:gambar>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.alodokter.com/bronkitis -->
+
+    <NamedIndividual rdf:about="https://www.alodokter.com/bronkitis">
+        <rdf:type rdf:resource="http://www.penyakit/namespace/penyakit"/>
+        <pnykt:gejala>sakit tengoorokakn, sesak nafas, hidung berlendir, hidung tersumbat, kelelahan, demam ringan</pnykt:gejala>
+        <pnykt:nama>bronkitis</pnykt:nama>
+        <pnykt:penanggulangan> periksa ke dokter</pnykt:penanggulangan>
+         <pnykt:desc>Bronkitis adalah sebutan untuk infeksi yang menyerang saluran pernapasan utama dari paru-paru atau yang disebut dengan bronkus. Akibat penyakit ini, maka akan terjadi peradangan atau inflamasi yang kemudian akan 
+					menimbulkan gejala yang mengganggu pernapasan. </pnykt:desc>
+        <pnykt:gambar>https://d1bpj0tv6vfxyp.cloudfront.net/category-article/20200123072032.297_Bronkitis.jpg</pnykt:gambar>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.alodokter.com/emfisema -->
+
+    <NamedIndividual rdf:about="https://www.alodokter.com/emfisema">
+        <rdf:type rdf:resource="http://www.penyakit/namespace/penyakit"/>
+        <pnykt:gejala>nafas pendek, batuk, cepat lelah, berat badan turun, jantung berdebar, depresi, bibir biru</pnykt:gejala>
+        <pnykt:nama>emfisema</pnykt:nama>
+        <pnykt:penanggulangan> obat obatan, terapi pendukung, operasi</pnykt:penanggulangan>
+         <pnykt:desc>Emfisema adalah penyakit kronis akibat kerusakan kantong udara atau alveolus pada paru-paru. 
+						Seiring waktu, kerusakan kantong udara semakin parah sehingga membentuk satu kantong besar dari beberapa kantong kecil yang pecah.</pnykt:desc>
+        <pnykt:gambar>https://www.kafekepo.com/wp-content/uploads/2020/05/emphysema-smoking.jpg</pnykt:gambar>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.alodokter.com/kanker-paru-paru -->
+
+    <NamedIndividual rdf:about="https://www.alodokter.com/kanker-paru-paru">
+        <rdf:type rdf:resource="http://www.penyakit/namespace/penyakit"/>
+        <pnykt:gejala> batuk kronis, batuk darah, penurunan berat badan, nyeri dada dan tulang, sesak nafas</pnykt:gejala>
+        <pnykt:nama>kanker paru-paru</pnykt:nama>
+        <pnykt:penanggulangan> kemotrapi, operasi, melakukan pengobatan </pnykt:penanggulangan>
+         <pnykt:desc>Kanker paru-paru adalah kondisi ketika sel ganas (kanker) terbentuk di paru-paru. 
+						Kanker ini lebih banyak dialami oleh orang yang memiliki kebiasaan merokok dan merupakan satu dari tiga jenis kanker yang paling banyak terjadi di Indonesia.</pnykt:desc>
+        <pnykt:gambar>https://asset.kompas.com/crops/ysqpB1HXuuBSMgo4D_O6Wh2yb58=/0x14:800x547/750x500/data/photo/2019/12/11/5df0da0fdec7e.jpg</pnykt:gambar>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.alodokter.com/laringitis -->
+
+    <NamedIndividual rdf:about="https://www.alodokter.com/laringitis">
+        <rdf:type rdf:resource="http://www.penyakit/namespace/penyakit"/>
+        <pnykt:gejala>sakit tenggorokan, batuk, demam, suara serak</pnykt:gejala>
+        <pnykt:nama>laringitis</pnykt:nama>
+        <pnykt:penanggulangan> minum air putih, jaga makanan, berkumur dengan air garam, mengonsumsi permen mint, pelan berbicara,  hindari asap</pnykt:penanggulangan>
+         <pnykt:desc>Laryngitis atau penyakit laringitis adalah peradangan yang terjadi pada laring, 
+						yaitu bagian dari saluran pernapasan di mana pita suara berada. Kondisi ini dapat disebabkan oleh penggunaan laring yang berlebihan, iritasi, atau infeksi.</pnykt:desc>
+        <pnykt:gambar>https://beyoung.co.id/wp-content/uploads/2020/10/Laryngeal-Cancer.jpg</pnykt:gambar>
+        
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.alodokter.com/pneunomia -->
+
+    <NamedIndividual rdf:about="https://www.alodokter.com/pneunomia">
+        <rdf:type rdf:resource="http://www.penyakit/namespace/penyakit"/>
+        <pnykt:gejala>batuk, demam, sesak nafas, menggigil, kelelahan</pnykt:gejala>
+        <pnykt:nama>pneunomia</pnykt:nama>
+        <pnykt:penanggulangan> vaksinasi, memperkuat daya tahan tub uh, tidak merokok</pnykt:penanggulangan>
+        <pnykt:desc>Pneumonia adalah peradangan paru-paru yang disebabkan oleh infeksi.
+					 Pneumonia bisa menimbulkan gejala yang ringan hingga berat. Beberapa gejala yang umumnya dialami penderita pneumonia adalah batuk berdahak, demam, dan sesak napas.</pnykt:desc>
+        <pnykt:gambar>https://kidsclinic.sg/wp-content/uploads/2020/03/Pneumonia-1.jpg</pnykt:gambar>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.alodokter.com/faringitis%20 -->
+
+    <NamedIndividual rdf:about="https://www.alodokter.com/faringitis%20">
+        <rdf:type rdf:resource="http://www.penyakit/namespace/penyakit"/>
+        <pnykt:gejala>nyeri tenggorokan, sulit saat menelan, demam, pegal linu, mual, leher bengkak </pnykt:gejala>
+        <pnykt:nama>faringitis</pnykt:nama>
+        <pnykt:penanggulangan> istirahat, minum air putih, jaga makanan, berkumur dengan air garam, hindari asap</pnykt:penanggulangan>
+        <pnykt:desc>Faringitis adalah peradangan pada tenggorokan atau faring.
+         Kondisi ini disebut juga radang tenggorokan, yang ditandai dengan tenggorokan terasa nyeri, gatal, dan sulit menelan.</pnykt:desc>
+        <pnykt:gambar>https://d1bpj0tv6vfxyp.cloudfront.net/bisa-pulih-sendiri-kapan-faringitis-dianggap-berbahaya.jpg</pnykt:gambar>
+    </NamedIndividual>
+    
+
+
+    <!-- https://www.alodokter.com/flu%20 -->
+
+    <NamedIndividual rdf:about="https://www.alodokter.com/flu%20">
+        <rdf:type rdf:resource="http://www.penyakit/namespace/penyakit"/>
+        <pnykt:gejala>batuk, bersin, demam, pilek, sakit kepala, hidung berlendir</pnykt:gejala>
+        <pnykt:nama>influenza</pnykt:nama>
+        <pnykt:penanggulangan>beristirahat, makan sehat, banyak minum </pnykt:penanggulangan>
+         <pnykt:desc>Banyak orang mengira flu sama dengan batuk pilek biasa (common cold). Walaupun gejalanya mirip, kedua kondisi ini disebabkan oleh jenis virus yang berbeda. 
+					Gejala flu lebih parah dan menyerang secara mendadak, sedangkan gejala batuk pilek biasa cenderung ringan dan muncul secara bertahap.</pnykt:desc>
+        <pnykt:gambar>https://miro.medium.com/max/1080/1*InXDTgu0pdaMtwOH46yTMA.jpeg</pnykt:gambar>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
